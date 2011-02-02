@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17588E4412F87C0100197D2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17588E4312F87C0100197D2A /* UIKit.framework */; };
+		17588E4612F87C0100197D2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17588E4512F87C0100197D2A /* Foundation.framework */; };
+		17588E4812F87C0100197D2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17588E4712F87C0100197D2A /* CoreGraphics.framework */; };
+		17588E4E12F87C0100197D2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17588E4C12F87C0100197D2A /* InfoPlist.strings */; };
+		17588E5112F87C0100197D2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17588E5012F87C0100197D2A /* main.m */; };
+		17588E5412F87C0100197D2A /* TiledPhotoScrollerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17588E5312F87C0100197D2A /* TiledPhotoScrollerAppDelegate.m */; };
+		17588E5712F87C0100197D2A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17588E5512F87C0100197D2A /* MainWindow.xib */; };
+		17588E6312F87C2100197D2A /* TiledPhotoScrollerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17588E6212F87C2100197D2A /* TiledPhotoScrollerController.m */; };
+		17588E6912F87EAC00197D2A /* TiledPhotoScrollerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17588E6812F87EAC00197D2A /* TiledPhotoScrollerView.xib */; };
+		17588E6C12F87FFA00197D2A /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17588E6B12F87FFA00197D2A /* MyScrollView.m */; };
+		17588E7612F8847100197D2A /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 17588E7512F8847100197D2A /* apple.png */; };
+		17588E7912F887A000197D2A /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17588E7812F887A000197D2A /* MyImageView.m */; };
+		1774D12D12F9E7E200BA97B0 /* ThumbImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1774D12B12F9E7E200BA97B0 /* ThumbImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17588E3F12F87C0100197D2A /* TiledPhotoScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiledPhotoScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17588E4312F87C0100197D2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17588E4512F87C0100197D2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17588E4712F87C0100197D2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17588E4B12F87C0100197D2A /* TiledPhotoScroller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TiledPhotoScroller-Info.plist"; sourceTree = "<group>"; };
+		17588E4D12F87C0100197D2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17588E4F12F87C0100197D2A /* TiledPhotoScroller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TiledPhotoScroller-Prefix.pch"; sourceTree = "<group>"; };
+		17588E5012F87C0100197D2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17588E5212F87C0100197D2A /* TiledPhotoScrollerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiledPhotoScrollerAppDelegate.h; sourceTree = "<group>"; };
+		17588E5312F87C0100197D2A /* TiledPhotoScrollerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledPhotoScrollerAppDelegate.m; sourceTree = "<group>"; };
+		17588E5612F87C0100197D2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		17588E6112F87C2100197D2A /* TiledPhotoScrollerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPhotoScrollerController.h; sourceTree = "<group>"; };
+		17588E6212F87C2100197D2A /* TiledPhotoScrollerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPhotoScrollerController.m; sourceTree = "<group>"; };
+		17588E6812F87EAC00197D2A /* TiledPhotoScrollerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TiledPhotoScrollerView.xib; sourceTree = "<group>"; };
+		17588E6A12F87FFA00197D2A /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		17588E6B12F87FFA00197D2A /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
+		17588E7512F8847100197D2A /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		17588E7712F8879F00197D2A /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		17588E7812F887A000197D2A /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
+		1774D12B12F9E7E200BA97B0 /* ThumbImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbImageView.m; sourceTree = "<group>"; };
+		1774D12C12F9E7E200BA97B0 /* ThumbImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbImageView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17588E3C12F87C0100197D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17588E4412F87C0100197D2A /* UIKit.framework in Frameworks */,
+				17588E4612F87C0100197D2A /* Foundation.framework in Frameworks */,
+				17588E4812F87C0100197D2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17588E3412F87C0100197D2A = {
+			isa = PBXGroup;
+			children = (
+				17588E4912F87C0100197D2A /* TiledPhotoScroller */,
+				17588E4212F87C0100197D2A /* Frameworks */,
+				17588E4A12F87C0100197D2A /* Supporting Files */,
+				17588E4012F87C0100197D2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17588E4012F87C0100197D2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17588E3F12F87C0100197D2A /* TiledPhotoScroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17588E4212F87C0100197D2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17588E4312F87C0100197D2A /* UIKit.framework */,
+				17588E4512F87C0100197D2A /* Foundation.framework */,
+				17588E4712F87C0100197D2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17588E4912F87C0100197D2A /* TiledPhotoScroller */ = {
+			isa = PBXGroup;
+			children = (
+				1774D12F12F9E81600BA97B0 /* Resources */,
+				1774D12B12F9E7E200BA97B0 /* ThumbImageView.m */,
+				1774D12C12F9E7E200BA97B0 /* ThumbImageView.h */,
+				17588E5212F87C0100197D2A /* TiledPhotoScrollerAppDelegate.h */,
+				17588E5312F87C0100197D2A /* TiledPhotoScrollerAppDelegate.m */,
+				17588E6112F87C2100197D2A /* TiledPhotoScrollerController.h */,
+				17588E6212F87C2100197D2A /* TiledPhotoScrollerController.m */,
+				17588E6A12F87FFA00197D2A /* MyScrollView.h */,
+				17588E6B12F87FFA00197D2A /* MyScrollView.m */,
+				17588E7712F8879F00197D2A /* MyImageView.h */,
+				17588E7812F887A000197D2A /* MyImageView.m */,
+			);
+			path = TiledPhotoScroller;
+			sourceTree = "<group>";
+		};
+		17588E4A12F87C0100197D2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17588E4B12F87C0100197D2A /* TiledPhotoScroller-Info.plist */,
+				17588E4C12F87C0100197D2A /* InfoPlist.strings */,
+				17588E4F12F87C0100197D2A /* TiledPhotoScroller-Prefix.pch */,
+				17588E5012F87C0100197D2A /* main.m */,
+			);
+			name = "Supporting Files";
+			path = TiledPhotoScroller;
+			sourceTree = "<group>";
+		};
+		1774D12F12F9E81600BA97B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17588E6812F87EAC00197D2A /* TiledPhotoScrollerView.xib */,
+				17588E7512F8847100197D2A /* apple.png */,
+				17588E5512F87C0100197D2A /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17588E3E12F87C0100197D2A /* TiledPhotoScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17588E5A12F87C0100197D2A /* Build configuration list for PBXNativeTarget "TiledPhotoScroller" */;
+			buildPhases = (
+				17588E3B12F87C0100197D2A /* Sources */,
+				17588E3C12F87C0100197D2A /* Frameworks */,
+				17588E3D12F87C0100197D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiledPhotoScroller;
+			productName = TiledPhotoScroller;
+			productReference = 17588E3F12F87C0100197D2A /* TiledPhotoScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17588E3612F87C0100197D2A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 17588E3912F87C0100197D2A /* Build configuration list for PBXProject "TiledPhotoScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17588E3412F87C0100197D2A;
+			productRefGroup = 17588E4012F87C0100197D2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17588E3E12F87C0100197D2A /* TiledPhotoScroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17588E3D12F87C0100197D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17588E4E12F87C0100197D2A /* InfoPlist.strings in Resources */,
+				17588E5712F87C0100197D2A /* MainWindow.xib in Resources */,
+				17588E6912F87EAC00197D2A /* TiledPhotoScrollerView.xib in Resources */,
+				17588E7612F8847100197D2A /* apple.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17588E3B12F87C0100197D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17588E5112F87C0100197D2A /* main.m in Sources */,
+				17588E5412F87C0100197D2A /* TiledPhotoScrollerAppDelegate.m in Sources */,
+				17588E6312F87C2100197D2A /* TiledPhotoScrollerController.m in Sources */,
+				17588E6C12F87FFA00197D2A /* MyScrollView.m in Sources */,
+				17588E7912F887A000197D2A /* MyImageView.m in Sources */,
+				1774D12D12F9E7E200BA97B0 /* ThumbImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17588E4C12F87C0100197D2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17588E4D12F87C0100197D2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17588E5512F87C0100197D2A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17588E5612F87C0100197D2A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17588E5812F87C0100197D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hiedi Utley (VQH2FA7HA9)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "86117792-49CB-44BE-8F13-416D1EE236BD";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		17588E5912F87C0100197D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hiedi Utley (VQH2FA7HA9)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "86117792-49CB-44BE-8F13-416D1EE236BD";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		17588E5B12F87C0100197D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TiledPhotoScroller/TiledPhotoScroller-Prefix.pch";
+				INFOPLIST_FILE = "TiledPhotoScroller/TiledPhotoScroller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17588E5C12F87C0100197D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TiledPhotoScroller/TiledPhotoScroller-Prefix.pch";
+				INFOPLIST_FILE = "TiledPhotoScroller/TiledPhotoScroller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17588E3912F87C0100197D2A /* Build configuration list for PBXProject "TiledPhotoScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17588E5812F87C0100197D2A /* Debug */,
+				17588E5912F87C0100197D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17588E5A12F87C0100197D2A /* Build configuration list for PBXNativeTarget "TiledPhotoScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17588E5B12F87C0100197D2A /* Debug */,
+				17588E5C12F87C0100197D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17588E3612F87C0100197D2A /* Project object */;
+}
